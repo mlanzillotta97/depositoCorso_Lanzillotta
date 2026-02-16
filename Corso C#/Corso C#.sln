@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lunedi_16_Febbraio", "lunedi_16_Febbraio", "{F72A5056-6881-1D1B-E3AC-A4F3896F6109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mattina", "mattina", "{0E01E3F7-D761-287C-520B-09F2357FB5E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "progetto_helloWorld", "progetto_helloWorld", "{08D110DB-B767-55C0-658C-48152325EA49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "progetto_helloWorld", "lunedi_16_Febbraio\mattina\progetto_helloWorld\progetto_helloWorld\progetto_helloWorld.csproj", "{51056B8A-C229-789F-3D05-B119A60C4BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51056B8A-C229-789F-3D05-B119A60C4BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51056B8A-C229-789F-3D05-B119A60C4BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51056B8A-C229-789F-3D05-B119A60C4BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51056B8A-C229-789F-3D05-B119A60C4BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E01E3F7-D761-287C-520B-09F2357FB5E8} = {F72A5056-6881-1D1B-E3AC-A4F3896F6109}
+		{08D110DB-B767-55C0-658C-48152325EA49} = {0E01E3F7-D761-287C-520B-09F2357FB5E8}
+		{51056B8A-C229-789F-3D05-B119A60C4BAC} = {08D110DB-B767-55C0-658C-48152325EA49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {138242A8-0B4D-4D2C-8542-57DE90908189}
+	EndGlobalSection
+EndGlobal
